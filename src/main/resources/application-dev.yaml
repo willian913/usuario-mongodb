@@ -2,3 +2,18 @@ spring:
   data:
     mongodb:
       uri: mongodb+srv://walmeidadefarias15:wPpOneRinqep7k2T@cluster0.55xu6nw.mongodb.net/usuario?retryWrites=true&w=majority
+
+  mail:
+    host: smtp.gmail.com
+    port: 465
+    username: w.almeidadefarias15@gmail.com
+    password: edfx yiiu ciho affy
+    protocol: smtps
+    properties:
+      mail:
+        smtp:
+          auth: true
+          ssl:
+            enable: true
+          starttls:
+            enable: false
